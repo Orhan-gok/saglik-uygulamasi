@@ -1,0 +1,22 @@
+body {
+    background: #f6f8fc;
+}
+.sidebar {
+    width: 270px;
+    border-right: 1px solid #e0e0e0;
+}
+.sidebar .nav-link {
+    color: #333;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+    background: #e3f0ff;
+    color: #1976d2;
+}
+.main-content .card {
+    border: none;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border-radius: 16px;
+} 
